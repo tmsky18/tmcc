@@ -21,5 +21,7 @@ assert 42 42
 assert 255 255
 assert 21 "5+20-4"
 assert 116 "213-125+28"
+assert 41 " 12 + 34 - 5 "
+assert 28 " 59 - 21 - 10 "
 
 echo OK
