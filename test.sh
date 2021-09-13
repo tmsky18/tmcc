@@ -28,5 +28,18 @@ assert 15 " 5 * (9 - 6)"
 assert 4 "(3 + 5) / 2"
 assert 10 "-10+20"
 assert 5 "-3*+5+20"
+assert 1 "0 == 0"
+assert 0 "23 == 79"
+assert 0 "0 != 0"
+assert 1 "23 != 79"
+assert 1 "23 < 79"
+assert 0 "51 < 13"
+assert 1 "24 <= 24"
+assert 0 "24 <= 23"
+assert 0 "23 > 79"
+assert 1 "51 > 13"
+assert 1 "24 >= 24"
+assert 0 "24 >= 25"
+
 
 echo OK
